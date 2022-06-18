@@ -1,0 +1,69 @@
+
+
+
+
+<ion-content  id="content" [fullscreen]="true" [forceOverscroll]="false" [scrollEvents]="false" [scrollX]="false" [scrollY]="false" >
+
+  <ion-header collapse="condense">
+    <link rel="stylesheet" href="home.page.scss">
+    <link rel="script" href="home.page.ts">
+
+  </ion-header>
+    <ion-menu   side="start" menuId="first" contentId="main" >
+      <ion-content>
+        <ion-button id="avatar" color="dark" size="large">
+          <ion-img  src="assets/icon/User Images.png" (click)="login()"></ion-img>
+        </ion-button>
+        <p id="km">Km</p>
+        <ion-label id="kmL" color="light" >2.5</ion-label>
+        <p id="pe">PE</p>
+        <ion-label id="peL" color="light" >100</ion-label>
+          <ion-button  color="Dark" fill="clear" id="iMieiPrecorsiButton" (click)="caricaMieiPercorsi()">I mie percorsi</ion-button>
+          <ion-button color="Dark" fill="clear" id="mappeSalvateButton">Mappe salvate</ion-button>
+          <ion-button slot="" color="Dark" id="segnalazionButton" >Segnalazioni</ion-button>
+
+      </ion-content>
+      <ion-footer>
+        <p id="appVersion">@Green Trail v1.0.0  - </p>
+        <a id="privacyLink" href="">Privacy Policy</a>
+        <ion-img id="it" src="assets/icon/icons8-italy-48 1.png" ></ion-img>
+        <ion-img id="ingl" src="assets/icon/icons8-great-britain-48 1.png" ></ion-img>
+      </ion-footer>
+    </ion-menu>
+
+<ion-footer>
+
+  <ion-button  id="searchButton" mode="ios">
+  <ion-icon name="search" class="icon" id="searchIcon" mode="ios"></ion-icon>
+    Search..
+  </ion-button>
+
+  <ion-button color="dark" id="elementiSalvatiButton" mode="ios"><ion-img src="assets/icon/bookmark_border_24px.png"></ion-img></ion-button>
+  <ion-button color="dark" id="gpsButton" mode="ios"><ion-img src="assets/icon/Gps%20fixed.png"></ion-img>
+  </ion-button>
+  <div id="searchDiv">
+    <ion-searchbar color="darktrail" class="searchBar" mode="ios"></ion-searchbar>
+    <ion-button color="dark" class="buttonForSearch" mode="ios">Cerca</ion-button>
+    <ion-button class="hikingButton" color="dark"><ion-img src="assets/icon/outline_hiking_black_24dp 1.png"></ion-img></ion-button>
+    <ion-button class="mtbButton" color="dark"><ion-img src="assets/icon/icons8-cycling-mountain-bike-64 1.png"></ion-img></ion-button>
+    <ion-button class="kayakingButton" color="dark"><ion-img src="assets/icon/outline_kayaking_black_24dp 1.png"></ion-img></ion-button>
+    <ion-button class="fishingButton" color="dark"><ion-img src="assets/icon/icons8-pike-50 1.png"></ion-img></ion-button>
+    <ion-button class="restaurantButton" color="dark"><ion-img src="assets/icon/outline_restaurant_black_24dp 1.png"></ion-img></ion-button>
+    <ion-button class="campingButton" color="dark"><ion-img src="assets/icon/icons8-camping-64 1.png"></ion-img></ion-button>
+    <ion-radio id="radioPrincipiante" mode="md"></ion-radio>
+    <label for="radioPrincipiante">ciao</label>
+  </div>
+</ion-footer>
+
+  <div class="ion-page" id="main">
+
+    <ion-content >
+      <ion-menu-toggle >
+        <ion-menu-button color="dark" id="sideBarButton" mode="md"></ion-menu-button>
+      </ion-menu-toggle>
+      <div #map id="map"></div>
+    </ion-content>
+
+  </div>
+
+</ion-content>

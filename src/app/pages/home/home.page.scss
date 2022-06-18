@@ -1,0 +1,306 @@
+.searchBar{
+
+  position: absolute;
+  width: 270px;
+  height: 35px;
+  top: 25px;
+  left: 22px;
+  color: white;
+  border: 1px solid #F2FF00;
+  border-radius: 10px;
+}
+.campingButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+  align-items: center;
+right: 55px;
+  top: 70px;
+}
+.restaurantButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+  right: 105px;
+  top: 70px;
+}
+.fishingButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+  left: 160px;
+  top: 70px;
+}
+.kayakingButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+  left: 105px;
+  top: 70px;
+}
+.mtbButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+ left:55px;
+  top: 70px;
+}
+.hikingButton{
+  position: absolute;
+  width: 35px;
+  font-size: 1px;
+  height: 35px;
+ left: 11px;
+  top: 70px;
+
+}
+.buttonForSearch{
+
+  position: absolute;
+  width: 121px;
+  height: 33px;
+  left: 100px;
+  top: 225px;
+  background: #000000;
+  font-style: white;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+
+
+#searchDiv{
+
+    position:relative;
+    top: 700px;
+    width: 360px;
+    height: 314px;
+    background: #000000;
+  }
+
+#searchDiv.close{
+  transition: 1s;
+  position:absolute;
+  top: 700px;
+  width: 360px;
+  height: 314px;
+  background: #000000;
+}
+
+#searchDiv.open{
+  transition: 1s;
+ position:absolute;
+  top: 370px;
+  width: 360px;
+  height: 314px;
+  background: #000000;
+}
+#map{
+  width: 100vh;
+  height: 100vh;
+}
+ion-menu{
+--ion-background-color:black;
+  transition:1s;
+}
+#appVersion{
+  color: white;
+  position: absolute;
+  font-size: x-small;
+}
+#privacyLink{
+  position: absolute;
+  font-size: x-small;
+  top: -32px;
+  left:115px
+}
+#it{
+  position:absolute;
+  width: 28px;
+  height: 24px;
+  top: -42px;
+  left: 220px;
+}
+#ingl{
+  position:absolute;
+  width: 28px;
+  height: 24px;
+  top: -42px;
+  left: 187px;
+}
+ion-label{
+  position: absolute;
+  color: white;
+  font-style: normal;
+  left: 140px;
+  top: 68px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+#peL{
+  position: absolute;
+  color: white;
+  font-style: normal;
+  left: 205px;
+  top: 67px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+#pe{
+  position: absolute;
+  color: white;
+  font-style: normal;
+  left: 170px;
+  top: 51px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+#kmL{
+  position: absolute;
+  color: white;
+  font-style: normal;
+  left: 125px;
+  top: 68px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+#km{
+  position: absolute;
+  color: white;
+  font-style: normal;
+  left: 90px;
+  top: 51px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+#avatar{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 14px;
+  top: 26px;
+  font-size:1px;
+}
+ion-menu-button{
+  vertical-align:300px;
+}
+ion-icon{
+font-size: 70px;
+}
+#iMieiPrecorsiButton{
+  text-transform: inherit;
+  position: absolute;
+  width: 151px;
+  height: 25px;
+  left: 1px;
+  top: 167px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+}
+#mappeSalvateButton{
+  text-transform: inherit;
+  position: absolute;
+  width: 151px;
+  height: 25px;
+  left: 1px;
+  top: 210px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+}
+#segnalazionButton{
+  text-transform: inherit;
+  position: absolute;
+  width: 140px;
+  height: 25px;
+  left: 1px;
+  top: 253px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+
+
+}
+#sideBarButton{
+  z-index: 1;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  left: 11px;
+  top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#elementiSalvatiButton{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 11px;
+  top: 605px;
+  font-size: 1px;
+  background: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+
+
+#searchButton{
+  border-radius: 10px;
+  -webkit-text-fill-color: black;
+  text-transform: inherit;
+  position: absolute;
+  width: 175px;
+  height: 40px;
+  left: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 610px;
+  background-color: #FFFFFF;
+}
+
+
+.textButton{
+  position: absolute;
+  color: black;
+  left: 45px;
+  top: 5px;
+  font-size: 14px;
+}
+#searchIcon{
+  color: black;
+  position: absolute;
+  width: 35px;
+  height: 27px;
+  left: -10px;
+  top: 8px;
+}
+#gpsButton{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: 15px;
+  top: 605px;
+  font-size: 1px;
+  background: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+
+

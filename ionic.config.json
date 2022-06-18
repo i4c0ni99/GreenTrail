@@ -1,0 +1,7 @@
+{
+  "name": "GreenTrail",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
