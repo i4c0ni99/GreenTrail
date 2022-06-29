@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {GoogleAuth} from '@codetrix-studio/capacitor-google-auth';
 import {Router, NavigationExtras} from '@angular/router';
+import{HttpClient} from "@angular/common/http";
 
 
 @Component({
@@ -9,7 +10,7 @@ import {Router, NavigationExtras} from '@angular/router';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage {
-  constructor(private router: Router) {
+  constructor(private router: Router, private httpClient : HttpClient) {
   }
 
   ionViewDidEnter() {
@@ -36,6 +37,7 @@ export class LoginPage {
   async doLogin() {
     this.checkLoggedIn();
     const user = await GoogleAuth.signIn();
+    this.httpClient.put("https://greentrail-416ed-default-rtdb.europe-west1.firebasedatabase.app/uteni",user);
     this.goToHome(user);
   }
 

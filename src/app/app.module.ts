@@ -6,11 +6,13 @@ import { AngularFireModule} from '@angular/fire/compat';
 import {AngularFireAuthModule} from '@angular/fire/compat/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { GooglePlus } from '@ionic-native/google-plus/ngx';
-import {environment} from '../environments/environment';
+
+import {firebaseConfig} from '../environments/firebaseConfig';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {TranslateModule} from '@ngx-translate/core';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import {HttpClientModule} from "@angular/common/http";
 
 
 
@@ -20,8 +22,8 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
   imports: [
-    BrowserModule, IonicModule.forRoot(), AppRoutingModule,TranslateModule.forRoot(),
-    AngularFireAuthModule,AngularFireModule.initializeApp(environment.firebaseConfig),
+    HttpClientModule,BrowserModule, IonicModule.forRoot(), AppRoutingModule,TranslateModule.forRoot(),
+    AngularFireAuthModule,AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule],
   providers: [GooglePlus,
     {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}],
