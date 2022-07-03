@@ -1,0 +1,20 @@
+<ion-header>
+    <link rel="script" href="sign-up.page.ts">
+    <link rel="stylesheet" href="sign-up.page.scss">
+</ion-header>
+
+<ion-content  >
+<form [formGroup]="createUserForm" class="form" (submit)="createUser(createUserForm.value['nome'],createUserForm.value['cognome'],createUserForm.value['email'])">
+    <input  formControlName="nome" type="text"   class="text" required>
+    <input formControlName="cognome" type="text"  class="text" required>
+    <input formControlName="email" type="text"  class="text" required>
+    <input type="submit"  value="sign up">
+
+
+
+
+
+
+</form>
+
+</ion-content>

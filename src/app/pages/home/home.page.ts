@@ -9,8 +9,7 @@ declare let google;
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit{
-  map: null;
-
+  map:any;
 constructor(private router: Router) {
   }
 
@@ -55,7 +54,10 @@ constructor(private router: Router) {
 
     google.maps.event.addListenerOnce(this.map, 'idle', () => {
       mapEle.classList.add('show-map');
+
     });
+
+
   }
 
   ngOnInit(): void {

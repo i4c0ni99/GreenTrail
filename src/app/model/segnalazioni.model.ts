@@ -2,7 +2,7 @@ import {Utente} from "./user.model";
 
 export class Segnalazioni {
     // Attributes
-    Tipo: Categoria;
+    Tipo:String;
     Descrizione: string;
     utente: Utente;
 
