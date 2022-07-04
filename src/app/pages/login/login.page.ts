@@ -6,6 +6,7 @@ import {FormGroup, FormBuilder, Validators} from '@angular/forms';
 import {LoadingController, AlertController} from '@ionic/angular';
 import 'firebase/firestore';
 import {AngularFirestore} from "@angular/fire/compat/firestore";
+import {Observable} from "rxjs";
 
 
 
@@ -53,8 +54,9 @@ export class LoginPage {
     async doLogin() {
 
         const user = await GoogleAuth.signIn();
-
-        if(!this.fireStore.collection('utenti').doc(user.email).get()._isScalar){
+        const email =this.fireStore.collection('utenti').doc('email').get();
+            console.log(this.fireStore.collection('utenti').doc('email').get());
+        if(!this.fireStore.collection('utenti').doc('email').get()._isScalar){
             this.router.navigate(['sign-up'],{state: {email:user.email,surname:user.familyName,name:user.givenName}});
 
         }
