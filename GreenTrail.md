@@ -2,7 +2,8 @@
 >
 > **A.A. 2021/2022**
 
-![](media/image1.jpeg){width="2.255028433945757in" height="2.4in"}
+![](./media/media/image1.jpeg){width="2.255028433945757in"
+height="2.4in"}
 
 Green Trail
 
@@ -25,7 +26,7 @@ Green Trail
 |                      |                     | oni@student.univaq.it) |
 +----------------------+---------------------+------------------------+
 
-# ![](media/image2.png){width="1.0719258530183726in" height="1.0838702974628172in"}Strategy
+# ![](./media/media/image2.png){width="1.0719258530183726in" height="1.0838702974628172in"}Strategy
 
 ## Product Objectives
 
@@ -227,7 +228,7 @@ Green Trail
 > Abruzzi ed ama fare uscite verso i luoghi più irraggiungibili, anche
 > in solitaria.
 
-# ![](media/image3.png){width="1.0840277777777778in" height="1.078471128608924in"}Scope
+# ![](./media/media/image3.png){width="1.0840277777777778in" height="1.078471128608924in"}Scope
 
 ### Features
 
@@ -346,11 +347,11 @@ Green Trail
 > la segnalazione, inserendo in seguito un apposito avviso nei dettagli
 > del percorso in questione.
 
-# ![](media/image4.png){width="1.0833333333333333in" height="1.0888877952755907in"}Structure
+# ![](./media/media/image4.png){width="1.0833333333333333in" height="1.0888877952755907in"}Structure
 
 ### Navigation model
 
-![](media/image5.png){width="5.893201006124235in"
+![](./media/media/image5.png){width="5.893201006124235in"
 height="3.5054166666666666in"}
 
 > **Splash Screen:** è la vista all'apertura di Green Trail.
@@ -392,7 +393,7 @@ height="3.5054166666666666in"}
 
 ### Data model
 
-![](media/image6.jpeg){width="7.020609142607174in"
+![](./media/media/image6.jpeg){width="7.020609142607174in"
 height="4.330624453193351in"}
 
 #### Utente:
@@ -440,17 +441,17 @@ height="4.330624453193351in"}
 > Entità contente il form di segnalazione, con categoria e descrizione,
 > che l'utente può inviare ad un operatore.
 
-# ![](media/image7.png){width="1.0682863079615048in" height="1.0941283902012249in"}Skeleton
+# ![](./media/media/image7.png){width="1.0682863079615048in" height="1.0941283902012249in"}Skeleton
 
 > Immagine ad alta risoluzione nell'allegato Skeleton.
 
-#### ![](media/image10.png){width="1.8444444444444446in" height="3.841463254593176in"}Splash Screen:
+#### ![](./media/media/image10.png){width="1.8444444444444446in" height="3.841463254593176in"}Splash Screen:
 
 > Nello splash screen mostriamo il logo e il nome dell\'applicazione,
 > con la regione supportata, per alcuni istanti prima di essere
 > reindirizzati alla schermata di login.
 
-#### ![](media/image11.png){width="1.8806966316710412in" height="3.9978182414698162in"}Login:
+#### ![](./media/media/image11.png){width="1.8806966316710412in" height="3.9978182414698162in"}Login:
 
 > Se la sessione è ancora attiva, questa vista reindirizza
 > automaticamente alla Home.
@@ -466,7 +467,7 @@ height="4.330624453193351in"}
 > Eventuali errori di accesso e necessità di recupero password, saranno
 > gestiti nelle apposite interfacce esterne di Google e Facebook.
 
-#### ![Immagine che contiene testo Descrizione generata automaticamente](media/image12.png){width="1.8254593175853018in" height="3.710236220472441in"}Home:
+#### ![Immagine che contiene testo Descrizione generata automaticamente](./media/media/image12.png){width="1.8254593175853018in" height="3.710236220472441in"}Home:
 
 > La vista Home è composta dalla mappa regionale indicante percorsi,
 > itinerari e punti di interesse affini all'utente.
@@ -489,7 +490,7 @@ height="4.330624453193351in"}
 > In tal modo, l\'utente può scorrere tutta la mappa anche se nello
 > schermo è rappresentata soltanto una porzione di essa.
 
-#### ![](media/image13.png){width="1.8851290463692039in" height="3.846195319335083in"}Sidebar:
+#### ![](./media/media/image13.png){width="1.8851290463692039in" height="3.846195319335083in"}Sidebar:
 
 > È la vista che appare premendo in alto a sinistra nelle schermate di
 > Home, Ricerca e Risultati di ricerca.
@@ -505,7 +506,7 @@ height="4.330624453193351in"}
 
 - due icone per cambiare la ling
 
-#### ![](media/image14.png){width="1.7566601049868766in" height="3.594582239720035in"}Segnalazioni:
+#### ![](./media/media/image14.png){width="1.7566601049868766in" height="3.594582239720035in"}Segnalazioni:
 
 > La vista segnalazioni è raggiungibile dalla Sidebar e contiene la
 > selezione della categoria, premendo su una delle quattro opzioni, ed
@@ -516,7 +517,7 @@ height="4.330624453193351in"}
 >
 > Tramite questa vista, è possibile segnalare bug, avvisi e consigli.
 
-#### ![](media/image15.png){width="1.7417596237970254in" height="3.5564238845144356in"}I miei percorsi:
+#### ![](./media/media/image15.png){width="1.7417596237970254in" height="3.5564238845144356in"}I miei percorsi:
 
 > La vista "I miei percorsi" è raggiungibile premendo sul medesimo nome
 > indicato nella Sidebar.
@@ -529,7 +530,7 @@ height="4.330624453193351in"}
 > L\'utente può scrollare la lista per consultarla integralmente
 > (principio di design degli assi infiniti).
 
-#### ![](media/image16.png){width="2.026735564304462in" height="4.138280839895013in"}Profilo:
+#### ![](./media/media/image16.png){width="2.026735564304462in" height="4.138280839895013in"}Profilo:
 
 > Il profilo è raggiungibile premendo l'icona in alto a sinistra
 > all'interno della Sidebar.
@@ -552,7 +553,7 @@ height="4.330624453193351in"}
 - Esclusivamente per trekking e MTB, è possibile selezionare attraverso
   apposito radio button il proprio livello di esperienza
 
-#### ![](media/image17.png){width="1.863423009623797in" height="3.807849956255468in"}Luoghi salvati:
+#### ![](./media/media/image17.png){width="1.863423009623797in" height="3.807849956255468in"}Luoghi salvati:
 
 > La vista Luoghi salvati è raggiungibile tramite tap dall\'icona in
 > basso a sinistra della Home e dalla Sidebar.
@@ -563,7 +564,7 @@ height="4.330624453193351in"}
 > infiniti, per consentire all\'utente di scrollare tra i differenti
 > luoghi della lista.
 
-#### ![](media/image18.png){width="1.6831441382327208in" height="3.435745844269466in"}Mappe salvate:
+#### ![](./media/media/image18.png){width="1.6831441382327208in" height="3.435745844269466in"}Mappe salvate:
 
 > **Ricerca:**
 >
@@ -577,7 +578,7 @@ height="4.330624453193351in"}
 >
 > In basso, al centro, il bottone per avviare la ricerca.
 >
-> ![](media/image19.png){width="1.9368405511811024in"
+> ![](./media/media/image19.png){width="1.9368405511811024in"
 > height="3.94832239720035in"}La vista Mappe salvate è raggiungibile
 > tramite tap dalla Sidebar. **Ciascuna mappa è elencata come risultato
 > contenente: foto del percorso, nome, località.**
@@ -585,7 +586,7 @@ height="4.330624453193351in"}
 > Abbiamo scelto di implementare il principio di design degli spazi
 > infiniti, per consentire all\'utente di scrollare lungo l\'elenco.
 
-#### ![](media/image20.png){width="1.684773622047244in" height="3.4374431321084864in"}![](media/image21.png){width="1.7220811461067367in" height="3.5092793088363954in"}Risultato di ricerca:
+#### ![](./media/media/image20.png){width="1.684773622047244in" height="3.4374431321084864in"}![](./media/media/image21.png){width="1.7220811461067367in" height="3.5092793088363954in"}Risultato di ricerca:
 
 > Risultato di ricerca è una vista raggiungibile premendo su uno dei map
 > marker, presenti sulla mappa e dunque dalle viste Home e Ricerca. Si
@@ -599,7 +600,7 @@ height="4.330624453193351in"}
 > lunghezza del percorso, difficoltà del percorso, punti esperienza
 > assegnabili, punti di esperienza consigliati per affrontarlo.
 
-#### ![](media/image22.png){width="1.8977121609798775in" height="3.878553149606299in"}Avvia itinerario:
+#### ![](./media/media/image22.png){width="1.8977121609798775in" height="3.878553149606299in"}Avvia itinerario:
 
 > La vista Avvio itinerario è raggiungibile tramite tap dall'apposito
 > bottone per avviare l'itinerario, esclusivamente dalla vista Risultato
@@ -611,7 +612,7 @@ height="4.330624453193351in"}
 >
 > mettere in pausa o terminare il tracking del percorso
 
-# ![](media/image23.png){width="1.0733016185476816in" height="1.0838702974628172in"}Surface
+# ![](./media/media/image23.png){width="1.0733016185476816in" height="1.0838702974628172in"}Surface
 
 > Il bianco, assieme al giallo, su sfondo nero contribuiscono a offrire
 > un buon contrasto fondamentale per ambienti con elevata luminosità.
@@ -627,13 +628,14 @@ height="4.330624453193351in"}
 > Il rosso è utilizzato per il tasto \" SOS \", colore associabile ad
 > una situazione di emergenza.
 
-![](media/image24.png){width="4.235696631671041in" height="4.995in"}
+![](./media/media/image24.png){width="4.235696631671041in"
+height="4.995in"}
 
 > Il carattere scelto è **Open Sans**.È un font semplice con uno stile
 > moderno, leggibile anche in piccole dimensioni.
 >
 > ![Immagine che contiene testo Descrizione generata
-> automaticamente](media/image25.png){width="5.0078280839895015in"
+> automaticamente](./media/media/image25.png){width="5.0078280839895015in"
 > height="2.39875in"}
 >
 > L' **icona** è stata realizzata combinando le montagne con l'acqua,
@@ -641,35 +643,38 @@ height="4.330624453193351in"}
 > montuose abruzzesi regalano spesso una suggestiva vista sulla costa
 > adriatica, data la distanza contenuta.
 
-![](media/image1.jpeg){width="2.255028433945757in" height="2.4in"}
+![](./media/media/image1.jpeg){width="2.255028433945757in"
+height="2.4in"}
 
 > **HiFi Wireframes**
 >
 > ![Immagine che contiene testo Descrizione generata
-> automaticamente](media/image26.jpeg){width="1.7942672790901137in"
+> automaticamente](./media/media/image26.jpeg){width="1.7942672790901137in"
 > height="3.0547911198600173in"} ![Immagine che contiene mappa
 > Descrizione generata
-> automaticamente](media/image27.jpeg){width="1.8075590551181102in"
+> automaticamente](./media/media/image27.jpeg){width="1.8075590551181102in"
 > height="3.0592705599300087in"}
-> ![](media/image28.jpeg){width="1.8088265529308836in"
+> ![](./media/media/image28.jpeg){width="1.8088265529308836in"
 > height="3.090624453193351in"}
 >
 > ![Immagine che contiene testo, elettronico, screenshot, schermo
 > Descrizione generata
-> automaticamente](media/image29.jpeg){width="1.7375951443569553in"
+> automaticamente](./media/media/image29.jpeg){width="1.7375951443569553in"
 > height="2.916978346456693in"} ![Immagine che contiene mappa
 > Descrizione generata
-> automaticamente](media/image30.jpeg){width="1.7726990376202976in"
+> automaticamente](./media/media/image30.jpeg){width="1.7726990376202976in"
 > height="2.988124453193351in"}
-> ![](media/image31.jpeg){width="1.7093055555555556in"
+> ![](./media/media/image31.jpeg){width="1.7093055555555556in"
 > height="2.904166666666667in"}
 >
 > ![Immagine che contiene testo, screenshot, elettronico Descrizione
 > generata
-> automaticamente](media/image32.jpeg){width="1.8228007436570428in"
+> automaticamente](./media/media/image32.jpeg){width="1.8228007436570428in"
 > height="3.090624453193351in"}
-> ![](media/image33.png){width="1.8092508748906386in" height="2.975in"}
-> ![](media/image34.jpeg){width="1.7809547244094488in"
+> ![](./media/media/image33.png){width="1.8092508748906386in"
+> height="2.975in"}
+> ![](./media/media/image34.jpeg){width="1.7809547244094488in"
 > height="2.98375in"}
 >
-> ![](media/image35.jpeg){width="1.884595363079615in" height="3.1875in"}
+> ![](./media/media/image35.jpeg){width="1.884595363079615in"
+> height="3.1875in"}
